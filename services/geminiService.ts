@@ -35,7 +35,7 @@ export const getCreativeInsight = async (recipeTitle: string, recipeText: string
         topP: 0.95,
       }
     });
-    return response.text ?? "The AI muse is silent for now. Try again or experiment freely.";
+    return response.text;
   } catch (error) {
     console.error("Error fetching creative insight from Gemini:", error);
     return "An error occurred while generating an AI insight. The glitch is part of the art, right?";

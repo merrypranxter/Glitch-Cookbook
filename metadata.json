@@ -1,5 +1,6 @@
 {
   "name": "Glitch Art Cookbook",
   "description": "An interactive digital cookbook of databending and glitch art recipes, with AI-powered creative suggestions to push your art to the next level.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": []
 }
